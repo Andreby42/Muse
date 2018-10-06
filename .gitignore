@@ -1,0 +1,4 @@
+*.log
+*.out
+Muse/.mvn/wrapper/maven-wrapper.properties
+Muse/.mvn/wrapper/maven-wrapper.jar

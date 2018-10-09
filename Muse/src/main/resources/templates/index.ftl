@@ -47,8 +47,8 @@
         </#if>
         <form id="form-login" action="${ctx!}/muse/song" method="post">
             <div class="form-group has-feedback">
-                <input type="username" name="songName" class="form-control" placeholder="歌曲名称">
-                <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+                <input id="songName" type="username" name="songName" class="form-control" placeholder="歌曲名称">
+                <span class="glyphicon glyphicon-music form-control-feedback"></span>
             </div>
             <div class="row">
                 <!-- /.col -->
@@ -58,6 +58,9 @@
                 <!-- /.col -->
             </div>
         </form>
+    </div>
+    <div>
+    	<li></li>
     </div>
     <!-- /.login-box-body -->
 </div>
@@ -77,6 +80,7 @@
             increaseArea: '20%' // optional
         });
     });
+   
 </script>
 </body>
 </html>
